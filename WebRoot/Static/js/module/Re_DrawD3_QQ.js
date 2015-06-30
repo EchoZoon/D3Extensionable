@@ -29,7 +29,7 @@ var org_qunid;
 var line_text;
 
 var outer, svg;
-var container
+var container;
 
 
 
@@ -43,8 +43,8 @@ var node_drag = d3.behavior.drag()
 function dragstart(d) {
 	d.fixed = false; 
 	d3.event.sourceEvent.stopPropagation();
-    d3.select(this).classed("dragging", true);
-    force.start();
+	d3.select(this).classed("dragging", true);
+    	force.start();
 }
 
 function dragmove(d) {
@@ -70,7 +70,6 @@ function zoomed() {
 function initLinks_Nodes(flag){
 
 	//初始化nodes
-	
 	var mylinks = new Array();
 	
 	var links_pre = new Array();
@@ -530,7 +529,6 @@ function tick() {//打点更新坐标
 		return "rotate(" + Math.PI + ")";
 	});
 	
-//	initImage();
 }
 
 
@@ -701,13 +699,13 @@ function showChildNodes(){
 	    	return dCurrent.index==o.source.index | dCurrent.index==o.target.index ? 1 : 0;
 	    });
 	    
-	    $("#showAll").val("全部展开");
+		$("#showAll").val("全部展开");
 		toggle = 1;
 		
     } else {
     	
-		node.selectAll('circle').style("opacity", 1);
-		link.style("opacity", 1);
+	node.selectAll('circle').style("opacity", 1);
+	link.style("opacity", 1);
         
         $("#showAll").val("收起叶子节点");
         toggle = 0;
@@ -813,6 +811,7 @@ function getMoreChildren(){
 
 }
 
+//点击节点，显示出rect,点击rect上的扩展时进行对选中节点的再次扩展，即查询此qq群的成员
 function expand(){
 	$(".bgload").show(500);
 	$(".myload").show(500);
