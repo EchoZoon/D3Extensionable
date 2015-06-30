@@ -13,11 +13,11 @@ Usage:
 
 5, 把qqD3.jsp拷贝至WebRoot目录下;
 
-6, 创建servelet, 所属包建为goDrawQQD3, url指定为goDrawQQD3.do;
+6, 创建servlet, 所属包建为goDrawQQD3, url指定为goDrawQQD3.do;
 
-7, 创建servelet, 所属包为goDrawQQD3, url指定为callBackDrawQQD3.do;
+7, 创建servlet, 所属包为goDrawQQD3, url指定为callBackDrawQQD3.do;
 
-8, 创建servelet, 所属包为goDrawQQD3, url指定为getMoreChildren.do;
+8, 创建servlet, 所属包为goDrawQQD3, url指定为getMoreChildren.do;
 
 9, 把项目中的goDrawQQD3包中的三个文件覆盖至自己的项目;
 
