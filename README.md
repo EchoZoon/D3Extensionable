@@ -3,7 +3,7 @@
 
 #Usage:
 
-####1, 使用MyEclipse8.5创建一个Web Service Project,命名为 D3Extensionable; 
+*1, 使用MyEclipse8.5创建一个Web Service Project,命名为 D3Extensionable; 
 
 ##2, 创建一个新的package, dataStructsUtils,依次创建包中的类;
 
