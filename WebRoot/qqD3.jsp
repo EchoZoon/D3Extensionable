@@ -6,9 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="author" content="echo" >
 	<meta http-equiv="cache-control" content="no-cache">
-	<script src="Static/js/jquery.min.js"></script>
-	<script src="Static/d3/d3.min.js"></script>
-	<script src="Static/js/Re_DrawD3_QQ.js"></script>
+	<script src="Static/js/org/jquery.min.js"></script>
+	<script src="Static/js/org/d3.min.js"></script>
+	<script src="Static/js/module/Re_DrawD3_QQ.js"></script>
 	<title>QQ关系图</title>
 
 	<style>
